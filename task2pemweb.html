@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Produk</title>
+        <style>
+            body {
+                background-color: lightgoldenrodyellow;
+            }
+            #baju1{
+                color:  darkslategrey;
+            }
+
+            h3{
+                color: darkslategray;
+            }
+            h1{
+                color: darkolivegreen;
+            }
+            .box{
+            width: 210px;
+                border: 1px solid;
+            
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+        <h1>＼(≧ᴗ≦)ﾉ Michelle Clothing ＼(≧ᴗ≦)ﾉ</h1>
+        <div class="desain-layout">
+            <div class="box">
+                <img width="200"src="imageclothing.jpeg" alt="">
+                <h3 id="baju1">
+                    Fashion 
+                </h3>
+                <p>Pick yours :</p>
+            </div>
+        </div>
+        <form action="output.html" method="get">
+        <label for="size">Size :</label>
+        <select name="size" id="size">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+          </select> <br>
+        <label for="amount">Amount :</label>
+        <input type="number" name="amount">
+        <button type="submit">Checkout</button>
+    </form>
+       </center>
+    </body>
+</html>
